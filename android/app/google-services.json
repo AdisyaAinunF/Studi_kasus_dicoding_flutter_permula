@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "832447607975",
+    "project_id": "sehatjiwa-bdg",
+    "storage_bucket": "sehatjiwa-bdg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832447607975:android:bfebbcccffcaa4c6569782",
+        "android_client_info": {
+          "package_name": "com.example.studi_kasus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832447607975-cj7e0epnd9kcf083fuqum6hkav9jl4md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studi_kasus",
+            "certificate_hash": "480cb4774b6363eb453e7940d651c80c9632b1f5"
+          }
+        },
+        {
+          "client_id": "832447607975-g0h6f7ih08eofg4b1tfqca7g9v35k2re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm8Krk1cjzGoYqdCUPI-ohn62M3tmAKOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832447607975-g0h6f7ih08eofg4b1tfqca7g9v35k2re.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832447607975-7scmao647dsgr5ls9r0g0bbdalekdnrj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.studiKasus"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

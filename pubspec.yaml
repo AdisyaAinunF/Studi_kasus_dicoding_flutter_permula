@@ -1,0 +1,26 @@
+name: studi_kasus
+description: SehatJiwaBDG - Studi kasus Dicoding
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  cloud_firestore: ^4.8.0
+  cupertino_icons: ^1.0.5
+  firebase_auth: ^4.20.0
+  firebase_core: ^2.15.1
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.1.0
+  http: ^1.1.0
+  provider: ^6.0.5
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
