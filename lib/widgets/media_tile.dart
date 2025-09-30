@@ -1,16 +1,29 @@
 import 'package:flutter/material.dart';
-import 'safe_network_image.dart';
+import '../screens/image_preview_screen.dart';
 
 class MediaTile extends StatelessWidget {
   final String imageUrl;
-  final VoidCallback onTap;
-  const MediaTile({super.key, required this.imageUrl, required this.onTap});
+  const MediaTile({super.key, required this.imageUrl});
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: ClipRRect(borderRadius: BorderRadius.circular(8), child: SafeNetworkImage(url: imageUrl, fit: BoxFit.cover)),
+    return InkWell(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => ImagePreviewScreen(url: imageUrl)),
+        );
+      },
+      child: Hero(
+        tag: imageUrl,
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(8),
+          child: AspectRatio(
+            aspectRatio: 4 / 3,
+            child: Image.network(imageUrl, fit: BoxFit.cover),
+          ),
+        ),
+      ),
     );
   }
 }
